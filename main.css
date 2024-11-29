@@ -1,0 +1,43 @@
+.gameselect {
+    font-size: 38px;
+    text-align: center;
+    width: 220px;
+    height: 220px;
+    border: 1px solid #000;
+    border-radius: 20%;
+    margin: 10px;
+    transition: 0.7s;
+    vertical-align: middle;
+}
+
+.gameselect img {
+    transition: 1s;
+    justify-content: center;
+    width: 170px;
+    height: 170px;
+    border-radius: 20%;
+}
+
+.gameselect img:hover {
+    transition: 1s;
+    border-radius: 5%;
+}
+
+.topselect {
+    font-size: 30px;
+}
+
+.gameselect:hover {
+    transition: 0.7s;
+    border: 2px solid gray;
+    width: 240px;
+    height: 240px;
+}
+
+.selection {
+    width: 100%;
+    height: 85vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
